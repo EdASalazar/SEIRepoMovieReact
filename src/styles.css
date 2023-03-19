@@ -1,0 +1,88 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.MovieCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 4rem;
+  background-color: lightgray;
+  max-width: 20rem;
+  border: solid darkgray 0.5rem;
+}
+
+.MovieCard > img {
+  max-width: 15rem;
+  padding: 0;
+}
+
+.MovieCard > h1 {
+  padding: 0.75rem;
+  margin: 0;
+}
+
+.MovieCard > a {
+  padding: 0 0.5rem 0 0.5rem;
+  text-align: center;
+}
+
+.MovieCard > h4 {
+  padding: 0 0 0.5rem 0;
+  margin: 0;
+  text-align: center;
+}
+
+.MovieCard > p {
+  padding: 0.75rem;
+  margin: 0;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(211, 211, 211, 0.4);
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.MoviesListPage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.MovieDetailsPage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: lightgray;
+  border: solid darkgray 0.5rem;
+}
+
+.MovieDetailsPage > img {
+  max-width: 15rem;
+  margin-right: 1rem;
+}
+
+.DetailsText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DetailsText > h3 {
+  margin-bottom: 0;
+  padding: 0;
+}
